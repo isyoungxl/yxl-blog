@@ -11,7 +11,8 @@
   },
   "scripts": {
     "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
+    "docs:build": "vuepress build docs",
+    "deploy-gh": "bash scripts/deploy-gh.sh"
   },
   "dependencies": {
     "@vuepress-reco/vuepress-plugin-kan-ban-niang": "^1.0.5",
